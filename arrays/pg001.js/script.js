@@ -12,8 +12,8 @@ function checkPrime(num = 0) {
   const givenNumber = num;
   let i = 2;
   const checkingDistance = Math.ceil(Math.sqrt(givenNumber));
-  while (i <= checkingDistance) {
-    if (givenNumber % i == 0) {
+  while (i <= checkingDistance ) {
+    if (givenNumber % i == 0 ) {
       return `The given Number: ${givenNumber} is Not Prime`;
     }
     i++;
@@ -21,4 +21,4 @@ function checkPrime(num = 0) {
   return `The given Number: ${givenNumber} is Prime`;
 }
 
-console.log(checkPrime(9));
+console.log(checkPrime(11));
