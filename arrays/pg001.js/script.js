@@ -21,4 +21,4 @@ function checkPrime(num = 0) {
   return `The given Number: ${givenNumber} is Prime`;
 }
 
-console.log(checkPrime(11));
+console.log(checkPrime(91));
